@@ -23,3 +23,10 @@
 Uygulamanın çalışması için gerekli kütüphaneleri terminale şu komutu yazarak yükleyin:
 ```bash
 sudo apt update && sudo apt install python3-tk python3-pil python3-psutil gir1.2-appindicator3-0.1
+.deb Paketi ile Kurulum (Recommended)
+sudo dpkg -i cstemp-paket.deb
+Manuel Çalıştırma (Manual Run)
+
+Kodları bilgisayarınıza indirip direkt çalıştırmak isterseniz:
+
+python3 cstemp.py
